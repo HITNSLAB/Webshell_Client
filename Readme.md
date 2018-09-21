@@ -1,7 +1,7 @@
 ## A special_webshell that can bypass the safedog and Ddun Client
 
 ### @Version: V1.0.0
-### @Author£ºC0d3r1iu
+### @Author: C0d3r1iu
 ### @Email: admin@recorday.cn
 
 ```
