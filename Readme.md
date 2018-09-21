@@ -14,6 +14,8 @@ Up to now(2018/9/21),this way can bypass the SafeDog and Ddun
 
 ```
 
+![](Using_Pic.png)
+
 **Remember never break the law**
 
 Better luck to you!
