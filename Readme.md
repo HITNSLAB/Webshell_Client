@@ -9,10 +9,11 @@ First you should upload the special_webshell to the Server
 
 then you can use this client to control the Server.
 
-*But remember don't break the law*
 
 Up to now(2018/9/21),this way can bypass the SafeDog and Ddun
 
-Better luck to you!
-
 ```
+
+*Remember never break the law*
+
+Better luck to you!
